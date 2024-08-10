@@ -7,3 +7,4 @@ def buble_sort(arr: list[int]) -> list[int]:
 
 
 print(buble_sort([1, 2, 3, 1, 1, 2, 3, 5, 7, 8]))
+
