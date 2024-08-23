@@ -1,3 +1,6 @@
+# ctrl + f ( find solution )
+
+# EASY
 # https://leetcode.com/problems/tenth-line/ -> 195
 
 
