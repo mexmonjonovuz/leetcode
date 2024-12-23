@@ -10,6 +10,3 @@ def reverse(x: int) -> int:
 
 
 print(reverse(1534236469))
-
-
-
