@@ -19,7 +19,7 @@ def stringMatching(words: List[str]) -> List[str]:
     # return list(set(words[j] for i in range(len(words)) for j in range(len(words)) if
     #          words[j] in words[i] and len(words[i]) > len(words[j])))
 
-    # v4                   #v4 -> v1                                                # v4 -> v2
+    # v4                   # v4 -> v1                                                # v4 -> v2
     return list(i for i in words if " ".join(words).count(i) > 1)  # or  [i for i in words if " ".join(words).count(i) > 1]
 
 
